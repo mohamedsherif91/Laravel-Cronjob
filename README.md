@@ -6,4 +6,4 @@
     php artisan migrate
 4. in .env file QUEUE_CONNECTION=database
 5. php artisan config:cache
-6. before test must run php artisan queue:work
+6. before test must run php artisan queue:work or php artisan queue:work --daemon &
